@@ -1,0 +1,8 @@
+commands:
+  spawn:  
+    message: '&bVous avez bien /et/e t/el/eporter au spawn'
+  setspawn:
+    message: '&eVous avez bien changer le spawn pour la command /spawn'
+coin:
+  addCoinWhenJoin: 100
+  player:

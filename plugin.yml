@@ -1,0 +1,51 @@
+name: Valapl
+version: 2.0
+author: julfit
+api-version: 1.16
+main: fr.devteam.plugin.Main
+commands:
+  fly:
+    description: permet de fly avec des pommmes de terres
+    permission: competence.heros
+  head:
+    description: permet de se give une tete
+    permition: 
+  mystat:
+    description: permet de voir ces stat
+  skull:
+    description: permet de se give une tete
+  setspawn:
+    description: permet de set un spawn
+    permission: spawn.use
+  spawn:
+    description: permet de se tp au spawn
+  flyspeed:
+    description: permet de modifier la vites de speed
+  map:
+    description: permet de faire des map perso
+  reloadseri: 
+    description: permet de reload le plugin
+  hat:
+    description: perment de se metre un objet sur la tete
+  addcoin:
+    description: permet d'add des coin
+  removecoin:
+    description: permet de remove des coin
+  setcoin:
+    description: permet de set des coin
+  shop:
+    description: ouvre le shop
+permissions:
+  competence.noFall:
+    description: pour ne pas prendre de degat de chute
+    default: op
+  competence.zombie:
+    description: pour etre un zombie
+    default: op
+  competence.heros:
+    description: pour etre un hero
+    default: op
+  spawn.use:
+    description: pour set le spawn
+    default: op
+  
